@@ -23,6 +23,21 @@
         <aspectj.version>1.8.9</aspectj.version>
     </properties>
 
+    <name>chrome-devtools-protocol</name>
+    <description>A web Socket to Chrome devtools protocol for java, and some build functions to use it</description>
+    <url>https://github.com/pgtoopx/chrome-devtools-protocol-jvm</url>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>nexus-releases</id>
+            <url>http://35.239.34.19/repository/maven-releases/</url>
+        </snapshotRepository>
+        <repository>
+            <id>nexus-snapshots</id>
+            <url>http://35.239.34.19/repository/maven-snapshots/</url>
+        </repository>
+    </distributionManagement>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -75,6 +90,13 @@
         </dependency>
 
     </dependencies>
+
+    <scm>
+        <connection>scm:git:git://github.com/pgtoopx/chrome-devtools-protocol-jvm.git</connection>
+        <developerConnection>scm:git:git@github.com:pgtoopx/chrome-devtools-protol.jvm.git</developerConnection>
+        <url>https://github.com/pgtoopx/chrome-devtools-protocol-jvm</url>
+        <tag>chrome-devtools-protocol-jvm-0.1</tag>
+    </scm>
 
     <!-- Build -->
     <build>
