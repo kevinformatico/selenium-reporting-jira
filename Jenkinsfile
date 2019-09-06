@@ -6,13 +6,13 @@ pipeline {
 
       stage('Limpia el Proyecto') {
           steps {
-              bat mvn clean
+              bash mvn clean
           }
       }
 
       stage('Ejecutpo las pruebas') {
           steps {
-             bat mvn install
+             bash mvn install
           }
       }
   }
