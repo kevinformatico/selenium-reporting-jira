@@ -6,14 +6,14 @@ pipeline {
 
       stage('Limpia el Proyecto') {
           steps {
-              bash 'mvn clean'
+              sh 'mvn clean'
               echo 'Hizo el Clean'
           }
       }
 
       stage('Ejecutpo las pruebas') {
           steps {
-             bash 'mvn install'
+             sh 'mvn install'
              echo 'Hizooo el Install'
           }
       }
