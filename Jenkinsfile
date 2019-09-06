@@ -14,7 +14,7 @@ pipeline {
       stage('Ejecutpo las pruebas') {
           steps {
              bash 'mvn install'
-             echo 'Hizo el Install'
+             echo 'Hizooo el Install'
           }
       }
   }
