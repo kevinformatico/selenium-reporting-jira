@@ -4,12 +4,12 @@ pipeline {
 
     stage('Clean Work Space') {
       steps {
-        batch 'mvn clean install'
+        bat 'mvn clean install'
       }
     }
     stage('Execute Running') {
       steps {
-        batch 'mvn surefire:test -Dtest=Running_Busqueda_Google'
+        bat 'mvn surefire:test -Dtest=Running_Busqueda_Google'
       }
     }
   }
