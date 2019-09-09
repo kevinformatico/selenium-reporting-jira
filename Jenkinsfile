@@ -1,6 +1,7 @@
 pipeline {
   agent any
   stages {
+
     stage('Clean Work Space') {
       steps {
         bat 'mvn clean install'
@@ -8,7 +9,7 @@ pipeline {
     }
     stage('Execute Running') {
       steps {
-        bat 'mvn surefire:test -Dtest=Running_Buscar_Google'
+        bat 'mvn surefire:test -Dtest=Running_Busqueda_Google'
       }
     }
   }
