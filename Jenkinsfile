@@ -4,7 +4,7 @@ pipeline {
 
     stage('Clean Work Space') {
       steps {
-        sh 'mvn clean install'
+        sh 'mvn clean'
       }
     }
   }
