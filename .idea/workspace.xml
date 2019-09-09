@@ -4,14 +4,6 @@
     <list default="true" id="477e7d97-5f0b-4bab-9371-eda88f5b97db" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/Runnings.Runner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/Runnings.Runner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/Runnings.Runner_Busqueda_Google.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/Runnings.Runner_Busqueda_Google.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/TEST-Runnings.Runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/TEST-Runnings.Runner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/TEST-Runnings.Runner_Busqueda_Google.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/TEST-Runnings.Runner_Busqueda_Google.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tsoft-1.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/tsoft-1.1-SNAPSHOT.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -72,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/Jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -123,7 +115,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-5" />
     <option name="width" value="863" />
     <option name="height" value="458" />
@@ -432,7 +424,7 @@
     <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
         </state>
       </provider>
     </entry>
