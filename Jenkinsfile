@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('No impacto'){
       steps {
-        sh 'mvn clean install -X -Dheadless=true'
+        sh 'mvn -U clean install -X -Dheadless=true'
       }
     }
   }
