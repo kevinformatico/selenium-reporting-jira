@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3196515900,
+              "duration": 3088836500,
               "status": "passed"
             },
             "line": 5,
@@ -30,7 +30,7 @@
           },
           {
             "result": {
-              "duration": 1977174200,
+              "duration": 1485219500,
               "status": "passed"
             },
             "line": 6,
@@ -48,8 +48,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat Definitions.BusquedaEnGoogle.aparecen_enlaces_relacionados_con(BusquedaEnGoogle.java:41)\r\n\tat ✽.aparecen enlaces relacionados con \"Autos\"(file:src/test/java/Features/BusquedaGoogle.feature:7)\r\n",
-              "duration": 51089400,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat Definitions.BusquedaEnGoogle.aparecen_enlaces_relacionados_con(BusquedaEnGoogle.java:40)\r\n\tat ✽.aparecen enlaces relacionados con \"Autos\"(file:src/test/java/Features/BusquedaGoogle.feature:7)\r\n",
+              "duration": 34688500,
               "status": "failed"
             },
             "line": 7,

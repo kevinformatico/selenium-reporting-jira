@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: Runnings.Runner_Busqueda_Google
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.378 s <<< FAILURE! - in Runnings.Runner_Busqueda_Google
-busqueda en Google(Busqueda)  Time elapsed: 5.077 s  <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.774 s <<< FAILURE! - in Runnings.Runner_Busqueda_Google
+busqueda en Google(Busqueda)  Time elapsed: 4.506 s  <<< FAILURE!
 java.lang.AssertionError
 
