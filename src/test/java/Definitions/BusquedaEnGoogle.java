@@ -22,7 +22,7 @@ public class BusquedaEnGoogle {
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("--headles");
         this.driver = new ChromeDriver(chromeOptions);
-
+        String saludo = "hola";
         driver.get(url);
     }
 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="5.225525">
+    <testcase classname="Busqueda" name="busqueda en Google" time="5.225525">
+        <failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at Definitions.BusquedaEnGoogle.aparecen_enlaces_relacionados_con(BusquedaEnGoogle.java:41)&#13;&#10;&#9;at ✽.aparecen enlaces relacionados con &quot;Autos&quot;(file:src/test/java/Features/BusquedaGoogle.feature:7)&#13;&#10;">
+            <![CDATA[Given Estoy en la pagina "http://www.google.cl".............................passed
+When busco la palabra "Autos"...............................................passed
+Then aparecen enlaces relacionados con "Autos"..............................failed
+And hacer click en el enlace................................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at Definitions.BusquedaEnGoogle.aparecen_enlaces_relacionados_con(BusquedaEnGoogle.java:41)
+	at ✽.aparecen enlaces relacionados con "Autos"(file:src/test/java/Features/BusquedaGoogle.feature:7)
+]]>
+        </failure>
+    </testcase>
+</testsuite>

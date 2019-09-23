@@ -1,0 +1,104 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 12,
+        "name": "busqueda en Google",
+        "description": "",
+        "id": "busqueda;busqueda-en-google;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3196515900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Estoy en la pagina \"http://www.google.cl\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://www.google.cl\"",
+                  "offset": 19
+                }
+              ],
+              "location": "BusquedaEnGoogle.estoy_en_la_pagina(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1977174200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "busco la palabra \"Autos\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Autos\"",
+                  "offset": 17
+                }
+              ],
+              "location": "BusquedaEnGoogle.busco_la_palabra(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat Definitions.BusquedaEnGoogle.aparecen_enlaces_relacionados_con(BusquedaEnGoogle.java:41)\r\n\tat ✽.aparecen enlaces relacionados con \"Autos\"(file:src/test/java/Features/BusquedaGoogle.feature:7)\r\n",
+              "duration": 51089400,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "aparecen enlaces relacionados con \"Autos\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Autos\"",
+                  "offset": 34
+                }
+              ],
+              "location": "BusquedaEnGoogle.aparecen_enlaces_relacionados_con(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10100,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "hacer click en el enlace",
+            "match": {
+              "location": "BusquedaEnGoogle.hacer_click_en_el_enlace()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@busquedaGoogle"
+          }
+        ]
+      }
+    ],
+    "name": "Busqueda",
+    "description": "",
+    "id": "busqueda",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/BusquedaGoogle.feature",
+    "tags": [
+      {
+        "name": "@busquedaGoogle",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

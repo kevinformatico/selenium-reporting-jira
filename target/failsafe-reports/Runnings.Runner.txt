@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: Runnings.Runner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 9.301 s <<< FAILURE! - in Runnings.Runner
+busqueda en Google(Busqueda)  Time elapsed: 8.635 s  <<< FAILURE!
+java.lang.AssertionError
+
