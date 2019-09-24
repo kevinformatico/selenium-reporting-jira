@@ -9,6 +9,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
+import java.util.Properties;
+
 import static org.junit.Assert.assertTrue;
 
 public class BusquedaEnGoogle {
@@ -17,9 +19,13 @@ public class BusquedaEnGoogle {
 
     @Given("Estoy en la pagina {string}")
     public void estoy_en_la_pagina(String url) {
+
+        java.util.Properties p = new Properties();
+        Boolean headless = Boolean.valueOf(p.getProperty("headless"));
+
         WebDriverManager.chromedriver().setup();
         ChromeOptions chromeOptions = new ChromeOptions();
-        chromeOptions.addArguments("--headles");
+        chromeOptions.setHeadless(headless);
         this.driver = new ChromeDriver(chromeOptions);
         String saludo = "hola";
         driver.get(url);
