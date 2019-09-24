@@ -20,14 +20,13 @@ public class BusquedaEnGoogle {
     @Given("Estoy en la pagina {string}")
     public void estoy_en_la_pagina(String url) {
 
-        java.util.Properties p = new Properties();
-        Boolean headless = Boolean.valueOf(p.getProperty("headless"));
-
         WebDriverManager.chromedriver().setup();
-        ChromeOptions chromeOptions = new ChromeOptions();
-        chromeOptions.setHeadless(headless);
-        this.driver = new ChromeDriver(chromeOptions);
-        String saludo = "hola";
+        ChromeOptions options = new ChromeOptions();
+        // Tested in Google Chrome 59 on Linux. More info on:
+        // https://developers.google.com/web/updates/2017/04/headless-chrome
+        options.addArguments("--headless");
+        options.addArguments("--disable-gpu");
+        this.driver = new ChromeDriver(options);
         driver.get(url);
     }
 
