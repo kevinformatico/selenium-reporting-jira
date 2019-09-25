@@ -26,7 +26,8 @@ public class BusquedaEnGoogle {
         // https://developers.google.com/web/updates/2017/04/headless-chrome
         options.addArguments("--headless");
         options.addArguments("--disable-gpu");
-        options.addArguments("--window-size=1440,808");
+        options.addArguments("--no-sandbox");
+        options.addArguments("--disable-dev-shm-usage");
         this.driver = new ChromeDriver(options);
         driver.get(url);
     }
