@@ -43,8 +43,6 @@ public class BusquedaEnGoogle {
     @Then("aparecen enlaces relacionados con {string}")
     public void aparecen_enlaces_relacionados_con(String palabraRelacionada) {
 
-        //String texto = driver.findElement(By.xpath("//*[@id=\"vn1s0p1c0\"]/h3")).getText();
-        //assertTrue(texto.contains(palabraRelacionada));
 
     }
 
