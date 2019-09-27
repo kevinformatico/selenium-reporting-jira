@@ -16,7 +16,7 @@ pipeline {
         always {
             archiveArtifacts(artifacts: 'target/', fingerprint: true)
             junit 'target/cucumber.xml'
-            publishTestResults  serverAddress: 'https://jira.falabella.com/projects/PBAN/issues/PBAN-2?filter=allopenissues',
+            publishTestResults  serverAddress: 'https://jira.falabella.com',
             projectKey: 'PBAN-2',
             filePath:'target/cucumber-report/cucumber.json',
             format: 'Cucumber',
