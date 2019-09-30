@@ -48,7 +48,7 @@ public class BusquedaEnGoogle {
 
     @Then("hacer click en el enlace")
     public void hacer_click_en_el_enlace() {
-        driver.findElement(By.xpath("//*[@id=\"vn1s0p1c0\"]/h3")).click();
+
     }
 
 }
