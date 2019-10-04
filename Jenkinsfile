@@ -16,7 +16,7 @@ pipeline {
         always {
           archiveArtifacts(artifacts: 'target/', fingerprint: true)
           junit 'target/cucumber.xml'
-          publishTestResults(serverAddress: 'http://34.95.164.112:90', projectKey: 'FAL', filePath: 'target/cucumber-report/cucumber.json', format: 'Cucumber', autoCreateTestCases: false)
+          publishTestResults(serverAddress: 'http://34.95.164.112:90', projectKey: 'FAL-1', filePath: 'target/cucumber-report/cucumber.json', format: 'Cucumber', autoCreateTestCases: false)
         }
      }
 }
