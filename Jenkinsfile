@@ -15,10 +15,14 @@ pipeline {
 
     post {
         always {
-          archiveArtifacts(artifacts: 'target/', fingerprint: true)
-          junit 'target/cucumber.xml'
-          publishTestResults(serverAddress: 'https://jira.falabella.com', projectKey: 'PBAN', filePath: 'target/cucumber-report/cucumber.json', format: 'Cucumber', autoCreateTestCases: true)
-        }
+              archiveArtifacts(artifacts: 'target/', fingerprint: true)
+              junit 'target/cucumber.xml'
+              publishTestResults  serverAddress: 'http://34.95.164.112:90',
+                                  projectKey: 'FAL',
+                                  filePath:'target/cucumber-report/cucumber.json',
+                                  format: 'Cucumber',
+                                  autoCreateTestCases: true
+            }
     }
 }
 
