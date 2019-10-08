@@ -5,34 +5,26 @@ pipeline {
         }
     }
     stages {
-        stage('Descarga de features'){
-            steps {
-                downloadFeatureFiles serverAddress: 'http://34.95.164.112:90',
-                    projectKey: 'FAL',
-                    targetPath:'src/test/java/Features'
-            }
-        }
+
         stage('No impacto') {
             steps {
                 sh 'mvn clean install -Dheadless=true -Ddocker=true'
             }
         }
 
-        stage('Reporting') {
-            steps {
-                step(
-                    [$class: 'ZfjReporter',
-                    serverAddress: 'http://34.95.164.112:90',
-                    projectKey:'FAL',
-                    versionKey:'1',
-                    cycleKey:'Prueba',
-                    cycleDuration:'1 days',
-                    cyclePrefix:'']
-                )
-            }
-        }
 
     }
 
+    post {
+        always {
+          archiveArtifacts(artifacts: 'target/', fingerprint: true)
+          junit 'target/cucumber.xml'
+          publishTestResults  serverAddress: 'http://server:port',
+                              projectKey: 'KEY',
+                              filePath:'target/cucumber-report/cucumber.json',
+                              format: 'Cucumber',
+                              autoCreateTestCases: false
+        }
+    }
 }
 
