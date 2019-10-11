@@ -2,7 +2,7 @@ package Definitions;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
-import com.relevantcodes.extentreports.LogStatus;
+import com.relevantcodes.extentreports.*;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -18,7 +18,7 @@ import static org.junit.Assert.assertTrue;
 
 public class BusquedaEnGoogle extends ExtendReportsss {
 
-    public BusquedaEnGoogle(ExtentTest test, ExtentReports report) {
+    public BusquedaEnGoogle() {
         super(test, report);
     }
 

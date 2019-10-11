@@ -1,6 +1,8 @@
-@busquedaGoogle
+#encoding:utf-8
+
 Feature: Busqueda
 
+  @TestCaseKey=JIRA-2
   Scenario Outline: busqueda en Google
     Given Estoy en la pagina "http://www.google.cl"
     When busco la palabra "<buscar>"
