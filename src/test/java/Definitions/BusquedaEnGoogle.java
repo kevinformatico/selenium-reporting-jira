@@ -1,5 +1,8 @@
 package Definitions;
 
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -13,7 +16,11 @@ import java.util.Properties;
 
 import static org.junit.Assert.assertTrue;
 
-public class BusquedaEnGoogle {
+public class BusquedaEnGoogle extends ExtendReportsss {
+
+    public BusquedaEnGoogle(ExtentTest test, ExtentReports report) {
+        super(test, report);
+    }
 
     WebDriver driver;
 
@@ -43,6 +50,11 @@ public class BusquedaEnGoogle {
     @Then("aparecen enlaces relacionados con {string}")
     public void aparecen_enlaces_relacionados_con(String palabraRelacionada) {
 
+        if(driver.getTitle().equals("Google")) {
+            test.log(LogStatus.PASS, "Navigated to the specified URL");
+        } else {
+            test.log(LogStatus.FAIL,test.addScreenCapture(capture(driver))+ "Test Failed");
+        }
 
     }
 

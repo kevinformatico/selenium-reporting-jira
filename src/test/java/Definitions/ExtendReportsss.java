@@ -1,4 +1,4 @@
-package Utils;
+package Definitions;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
@@ -13,12 +13,17 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Random;
 
-public class ExtendReport {
-    static ExtentTest test;
-    static ExtentReports report;
+public class ExtendReportsss {
+    public static ExtentTest test;
+    public static ExtentReports report;
 
-    static Random numero = new Random();
-    static int numeroAleatorio = numero.nextInt(10000);
+    public static Random numero = new Random();
+    public static int numeroAleatorio = numero.nextInt(10000);
+
+    public ExtendReportsss(ExtentTest test, ExtentReports report) {
+        this.test = test;
+        this.report = report;
+    }
 
     @BeforeClass
     public static void startTest()
