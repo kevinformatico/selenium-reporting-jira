@@ -49,8 +49,8 @@ public class BusquedaEnGoogle extends ExtendReportsss {
 
     @Then("aparecen enlaces relacionados con {string}")
     public void aparecen_enlaces_relacionados_con(String palabraRelacionada) {
-
-        if(driver.getTitle().equals("Google")) {
+        String primerLink = driver.findElement(By.xpath("(//h3[contains(text(),'Autos ')])[1]")).getText();
+        if(primerLink.contains(palabraRelacionada)) {
             test.log(LogStatus.PASS, "Navigated to the specified URL");
         } else {
             test.log(LogStatus.FAIL,test.addScreenCapture(capture(driver))+ "Test Failed");
