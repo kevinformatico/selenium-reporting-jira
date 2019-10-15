@@ -2,23 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="477e7d97-5f0b-4bab-9371-eda88f5b97db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Definitions/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/config/extent-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reportes/ejecucion_2158/ejecucion_2158.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reportes/ejecucion_6610/ejecucion_6610.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reportes/ejecucion_9573/ejecucion_9573.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Definitions/BusquedaEnGoogle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Definitions/BusquedaEnGoogle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Definitions/ExtendReportsss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Definitions/ExtendReportsss.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/BusquedaGoogle.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/BusquedaGoogle.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Runnings/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runnings/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reportes/html-report/formatter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reportes/html-report/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reportes/html-report/jquery-1.8.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reportes/html-report/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reportes/html-report/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reportes/screenshots/BusquedaEnGoogle_1571106635461.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reportes/screenshots/BusquedaEnGoogle_1571106640531.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reportes/screenshots/BusquedaEnGoogle_1571106761505.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reportes/screenshots/BusquedaEnGoogle_1571106766468.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-report/cucumber.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Definitions/BusquedaEnGoogle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Definitions/BusquedaEnGoogle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Definitions/ExtendReportsss.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Definitions/ExtendReportsss.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/tsoft.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Runnings/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Runnings/Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/Runnings.Runner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/Runnings.Runner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/Runnings.Runner_Busqueda_Google.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/Runnings.Runner_Busqueda_Google.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/TEST-Runnings.Runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/TEST-Runnings.Runner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/TEST-Runnings.Runner_Busqueda_Google.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/TEST-Runnings.Runner_Busqueda_Google.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tsoft-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/tsoft-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
