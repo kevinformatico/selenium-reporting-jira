@@ -16,13 +16,14 @@ import java.util.Properties;
 
 import static org.junit.Assert.assertTrue;
 
-public class BusquedaEnGoogle extends ExtendReportsss {
+public class BusquedaEnGoogle extends BasePage{
 
     public BusquedaEnGoogle() {
-        super(test, report);
     }
 
-    WebDriver driver;
+    public BusquedaEnGoogle(WebDriver driver) {
+        super(driver);
+    }
 
     @Given("Estoy en la pagina {string}")
     public void estoy_en_la_pagina(String url) {
@@ -51,9 +52,10 @@ public class BusquedaEnGoogle extends ExtendReportsss {
     public void aparecen_enlaces_relacionados_con(String palabraRelacionada) {
         String primerLink = driver.findElement(By.xpath("(//h3[contains(text(),'Autos ')])[1]")).getText();
         if(primerLink.contains(palabraRelacionada)) {
-            test.log(LogStatus.PASS, "Navigated to the specified URL");
+            //test.log(LogStatus.PASS, "Navigated to the specified URL");
+            //screenshot(driver,"BusquedaEnGoogle");
         } else {
-            test.log(LogStatus.FAIL,test.addScreenCapture(capture(driver))+ "Test Failed");
+            //test.log(LogStatus.FAIL,test.addScreenCapture(capture(driver))+ "Test Failed");
         }
 
     }

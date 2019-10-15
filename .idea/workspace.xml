@@ -2,8 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="477e7d97-5f0b-4bab-9371-eda88f5b97db" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Definitions/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/config/extent-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reportes/ejecucion_2158/ejecucion_2158.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reportes/ejecucion_6610/ejecucion_6610.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reportes/ejecucion_9573/ejecucion_9573.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Definitions/BusquedaEnGoogle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Definitions/BusquedaEnGoogle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Definitions/ExtendReportsss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Definitions/ExtendReportsss.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/BusquedaGoogle.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/BusquedaGoogle.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Runnings/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runnings/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Definitions/BusquedaEnGoogle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Definitions/BusquedaEnGoogle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Definitions/ExtendReportsss.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Definitions/ExtendReportsss.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/tsoft.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Runnings/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Runnings/Runner.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,11 +58,11 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="MANAGE_IGNORE_FILES_PROPERTY" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Proyecto mobile falabella/ProyectofalabellaAndroid" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../PROYECTOSSS/venta-empresa" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.22325581" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">

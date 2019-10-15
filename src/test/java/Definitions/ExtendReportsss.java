@@ -31,7 +31,7 @@ public class ExtendReportsss {
     {
 
         report = new ExtentReports(System.getProperty("user.dir")+"\\reportes\\ejecucion_"+numeroAleatorio+"\\ExtentReportResults_"+numeroAleatorio+".html");
-        test = report.startTest("ExtentDemo");
+        test = report.startTest("ExtendReportsss");
     }
 
     @AfterClass
