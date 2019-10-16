@@ -38,6 +38,8 @@ public class BusquedaEnGoogle extends BasePage{
         options.addArguments("--disable-dev-shm-usage");
         this.driver = new ChromeDriver(options);
         driver.get(url);
+
+        //Prueba
     }
 
     @When("busco la palabra {string}")
