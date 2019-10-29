@@ -1,0 +1,106 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 15,
+        "name": "busqueda en Google",
+        "description": "",
+        "id": "busqueda;busqueda-en-google;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7517171701,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Estoy en la pagina \"http://www.google.cl\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://www.google.cl\"",
+                  "offset": 19
+                }
+              ],
+              "location": "BusquedaEnGoogle.estoy_en_la_pagina(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1487266500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "busco la palabra \"Autos\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Autos\"",
+                  "offset": 17
+                }
+              ],
+              "location": "BusquedaEnGoogle.busco_la_palabra(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 38000799,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "aparecen enlaces relacionados con \"Autos\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Autos\"",
+                  "offset": 34
+                }
+              ],
+              "location": "BusquedaEnGoogle.aparecen_enlaces_relacionados_con(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "hacer click en el enlace",
+            "match": {
+              "location": "BusquedaEnGoogle.hacer_click_en_el_enlace()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@busquedaGoogle"
+          },
+          {
+            "name": "@TestCaseKey\u003dJIRA-T1"
+          }
+        ]
+      }
+    ],
+    "name": "Busqueda",
+    "description": "",
+    "id": "busqueda",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/BusquedaGoogle.feature",
+    "tags": [
+      {
+        "name": "@busquedaGoogle",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
