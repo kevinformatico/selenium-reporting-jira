@@ -3,7 +3,7 @@
 
 Feature: Busqueda
 
-  @TestCaseKey=JIRA-T1
+  @TestCaseKey=FAL-T2
   Scenario Outline: busqueda en Google
     Given Estoy en la pagina "http://www.google.cl"
     When busco la palabra "<buscar>"

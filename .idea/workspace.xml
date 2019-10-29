@@ -3,32 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="477e7d97-5f0b-4bab-9371-eda88f5b97db" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generar-reporte/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/generar-reporte/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generar-reporte/css/cluecumber.css" beforeDir="false" afterPath="$PROJECT_DIR$/generar-reporte/css/cluecumber.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generar-reporte/css/cluecumber_custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/generar-reporte/css/cluecumber_custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generar-reporte/css/dataTables.bootstrap4.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/generar-reporte/css/dataTables.bootstrap4.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generar-reporte/css/datatables.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/generar-reporte/css/datatables.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generar-reporte/font/cluecumber.svg" beforeDir="false" afterPath="$PROJECT_DIR$/generar-reporte/font/cluecumber.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generar-reporte/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/generar-reporte/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generar-reporte/js/Chart.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/generar-reporte/js/Chart.bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generar-reporte/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/generar-reporte/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generar-reporte/js/datatables.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/generar-reporte/js/datatables.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generar-reporte/js/jquery.fancybox.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/generar-reporte/js/jquery.fancybox.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generar-reporte/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/generar-reporte/js/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generar-reporte/js/popper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/generar-reporte/js/popper.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generar-reporte/pages/feature-scenarios/feature_0.html" beforeDir="false" afterPath="$PROJECT_DIR$/generar-reporte/pages/feature-scenarios/feature_0.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generar-reporte/pages/feature-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/generar-reporte/pages/feature-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generar-reporte/pages/scenario-detail/scenario_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/generar-reporte/pages/scenario-detail/scenario_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generar-reporte/pages/scenario-sequence.html" beforeDir="false" afterPath="$PROJECT_DIR$/generar-reporte/pages/scenario-sequence.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generar-reporte/pages/step-scenarios/step_01243723823.html" beforeDir="false" afterPath="$PROJECT_DIR$/generar-reporte/pages/step-scenarios/step_01243723823.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generar-reporte/pages/step-scenarios/step_0986899025.html" beforeDir="false" afterPath="$PROJECT_DIR$/generar-reporte/pages/step-scenarios/step_0986899025.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generar-reporte/pages/step-scenarios/step_296366886.html" beforeDir="false" afterPath="$PROJECT_DIR$/generar-reporte/pages/step-scenarios/step_296366886.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generar-reporte/pages/step-scenarios/step_659391420.html" beforeDir="false" afterPath="$PROJECT_DIR$/generar-reporte/pages/step-scenarios/step_659391420.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generar-reporte/pages/step-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/generar-reporte/pages/step-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generar-reporte/pages/tag-scenarios/tag_TestCaseKey=JIRA-T1.html" beforeDir="false" afterPath="$PROJECT_DIR$/generar-reporte/pages/tag-scenarios/tag_TestCaseKey=JIRA-T1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generar-reporte/pages/tag-scenarios/tag_busquedaGoogle.html" beforeDir="false" afterPath="$PROJECT_DIR$/generar-reporte/pages/tag-scenarios/tag_busquedaGoogle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generar-reporte/pages/tag-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/generar-reporte/pages/tag-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/BusquedaGoogle.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/BusquedaGoogle.feature" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
