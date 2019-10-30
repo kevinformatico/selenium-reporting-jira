@@ -13,6 +13,8 @@ import java.io.File;
 
 public class BasePage {
 
+    //commit
+
     private static final int TIMEOUT = 5;
     private static final int POLLING = 100;
 
