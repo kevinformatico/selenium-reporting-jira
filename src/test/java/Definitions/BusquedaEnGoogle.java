@@ -40,6 +40,7 @@ public class BusquedaEnGoogle extends BasePage{
         driver.get(url);
 
         //Prueba
+        //Prueba2
     }
 
     @When("busco la palabra {string}")
