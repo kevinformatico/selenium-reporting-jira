@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="477e7d97-5f0b-4bab-9371-eda88f5b97db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/JiraServer/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JiraServer/ClientJira.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JiraServer/FuncionesBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JiraServer/FuncionesGenericas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JiraServer/StepZephyr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JiraServer/ZipUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Manager/HtmlReportManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Manager/PropertiesManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Definitions/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Definitions/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Definitions/BusquedaEnGoogle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Definitions/BusquedaEnGoogle.java" afterDir="false" />
-    </list>
+    <list default="true" id="477e7d97-5f0b-4bab-9371-eda88f5b97db" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
