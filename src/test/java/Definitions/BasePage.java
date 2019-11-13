@@ -1,7 +1,11 @@
 package Definitions;
 
+import JiraServer.ZipUtils;
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
 import com.cucumber.listener.Reporter;
 import org.apache.commons.io.FileUtils;
+import org.junit.Assert;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -10,8 +14,21 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
+import java.util.ArrayList;
 
 public class BasePage {
+
+    public static String estado, nombreTest;
+    public static ExtentTest extent;
+    public static ExtentReports extentReports;
+    String partNombreTest[];
+    public static String[][][] matrizEvi;
+    public static String[][] datosClientes;
+    public static int filaM;
+    public static ArrayList<String> arrPasos = new ArrayList<String>(), listaPasos, listaResultado;
+    public static ZipUtils appZip = null;
+    private String proyecto, ciclo;
+    public static boolean jira, datos;
 
     //commit
 
@@ -111,5 +128,9 @@ public class BasePage {
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+    public void exitTest() {
+        Assert.fail("Expected exit");
     }
 }

@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="477e7d97-5f0b-4bab-9371-eda88f5b97db" name="Default Changelist" comment="" />
+    <list default="true" id="477e7d97-5f0b-4bab-9371-eda88f5b97db" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/JiraServer/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JiraServer/ClientJira.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JiraServer/FuncionesBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JiraServer/FuncionesGenericas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JiraServer/StepZephyr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JiraServer/ZipUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Manager/HtmlReportManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Manager/PropertiesManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Definitions/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Definitions/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Definitions/BusquedaEnGoogle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Definitions/BusquedaEnGoogle.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,11 +32,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>repositor</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -40,11 +48,20 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="MANAGE_IGNORE_FILES_PROPERTY" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../proyecto apium falabella/ProyectofalabellaAndroid" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/JiraServer" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.22325581" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="JiraServer" />
+      <recent name="Manager" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\i7\Desktop\PROYECTOS\2\ProyectoFalabella\src\test\java\JiraServer" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">

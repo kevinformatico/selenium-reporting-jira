@@ -1,5 +1,7 @@
 package Definitions;
 
+import JiraServer.ClientJira;
+import JiraServer.FuncionesBase;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.*;
@@ -12,11 +14,16 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
+import javax.ws.rs.client.Client;
+import java.util.ArrayList;
 import java.util.Properties;
 
 import static org.junit.Assert.assertTrue;
 
 public class BusquedaEnGoogle extends BasePage{
+
+    public static ArrayList<String> stepTest = new ArrayList<String>(), listaPasos, listaResultados;
+    static Client client;
 
     public BusquedaEnGoogle() {
     }
@@ -39,8 +46,40 @@ public class BusquedaEnGoogle extends BasePage{
         this.driver = new ChromeDriver(options);
         driver.get(url);
 
-        //Prueba
-        //Prueba2
+        try {
+
+            //Describir nombres de pasos
+            stepTest.add("Abrir URL Web BanFalabella_A");
+            stepTest.add("Ingresar al Login Web BanFalabella_A");
+            stepTest.add("Seleccionar Categoria_a");
+            stepTest.add("Seleccionar Item_a");
+
+            //Crea los pasos en Zephyr(JIRA)
+            client = ClientJira.getInstance();
+            String idIssue = ClientJira.retornaIdIssue("MT","CDP-Hector");
+
+            //Recuperamos la cantidad de pasos asociados al caso
+            int size = ClientJira.retornaCantidadPasosTestJIRA(idIssue);
+
+            //Si contiene pasos, debemos eliminar
+            if(size > 0) {
+                listaPasos = ClientJira.retornaListaPasosTestJIRA(idIssue);
+                ClientJira.eliminaPasosTestJIRA(idIssue, listaPasos);
+            }
+
+            //Creamos los pasos en Zephyr en base a la lista ingresada
+            for (int i = 0; i < stepTest.size(); i++) {
+                ClientJira.crearPasoTestJIRA(stepTest.get(i), "", "", idIssue);
+            }
+
+        }catch(Exception e) {
+            System.out.println("Error al setear pasos al test: " + e.getMessage());
+        }
+
+        estado = "OK";
+        if(!FuncionesBase.estadoPaso("Abrir URL Web BanFalabella", estado, false).equals("OK")) {
+            this.exitTest();
+        }
     }
 
     @When("busco la palabra {string}")
@@ -49,6 +88,10 @@ public class BusquedaEnGoogle extends BasePage{
         driver.findElement(By.name("q")).sendKeys(palabraABuscar);
         driver.findElement(By.name("q")).submit();
 
+        estado =  estado = "OK";
+        if(!FuncionesBase.estadoPaso("Ingresar al Login Web BanFalabella", estado, false).equals("OK")) {
+            this.exitTest();
+        }
     }
 
     @Then("aparecen enlaces relacionados con {string}")
@@ -61,11 +104,18 @@ public class BusquedaEnGoogle extends BasePage{
             //test.log(LogStatus.FAIL,test.addScreenCapture(capture(driver))+ "Test Failed");
         }
 
+        estado =  estado = "OK";
+        if(!FuncionesBase.estadoPaso("Seleccionar Categoria", estado, false).equals("OK")) {
+            this.exitTest();
+        }
     }
 
     @Then("hacer click en el enlace")
     public void hacer_click_en_el_enlace() {
-        //PRUEBA
+        estado =  estado = "OK";
+        if(!FuncionesBase.estadoPaso("Seleccionar Item", estado, false).equals("OK")) {
+            this.exitTest();
+        }
     }
 
 }
